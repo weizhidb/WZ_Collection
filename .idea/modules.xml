@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/WZ_Collection.iml" filepath="$PROJECT_DIR$/WZ_Collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WZ_Function_Lib/WZ_Function_Lib.iml" filepath="$PROJECT_DIR$/WZ_Function_Lib/WZ_Function_Lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WZ_UI_Lib/WZ_UI_Lib.iml" filepath="$PROJECT_DIR$/WZ_UI_Lib/WZ_UI_Lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
