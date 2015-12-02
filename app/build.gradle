@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.administrator.wz_collection"
-        minSdkVersion 15
+        minSdkVersion 14
         targetSdkVersion 22
         versionCode 2
         versionName "1.0"
@@ -21,7 +21,7 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:22.1.1'
+    compile 'com.android.support:appcompat-v7:22.2.0'
     compile files('src/main/libs/volley.jar')
     compile files('src/main/libs/gson-2.2.1.jar')
     compile files('src/main/libs/eventbus-2.4.0.jar')

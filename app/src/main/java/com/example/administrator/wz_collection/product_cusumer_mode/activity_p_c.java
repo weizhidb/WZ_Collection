@@ -2,7 +2,6 @@ package com.example.administrator.wz_collection.product_cusumer_mode;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;

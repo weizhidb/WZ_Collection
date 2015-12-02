@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:defineView="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="left">
+    </android.support.v4.view.ViewPager>
+
+    <!--底部导航栏-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:background="@mipmap/bj2"
+        android:orientation="horizontal">
+        <com.example.administrator.wz_collection.UI.ExchangeColorView
+            android:id="@+id/id_indicator_one"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            defineView:myicon="@mipmap/ic_menu_conversation"
+            defineView:mytext="WIFI"
+            defineView:mytext_size="13dp"
+            android:layout_marginLeft="10dp"
+        />
+
+        <com.example.administrator.wz_collection.UI.ExchangeColorView
+            android:id="@+id/id_indicator_two"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            defineView:myicon="@mipmap/ic_menu_friendslist"
+            defineView:mytext="消息"
+            defineView:mytext_size="13dp"
+            />
+        <!--
+       <com.example.administrator.wz_collection.UI.ExchangeColorView
+           android:id="@+id/id_indicator_three"
+           android:layout_width="0dip"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           defineView:myicon="@mipmap/ic_menu_emoticons"
+           defineView:mytext="设置"
+           defineView:mytext_size="13dp"
+           />
+       <com.example.administrator.wz_collection.UI.ExchangeColorView
+           android:id="@+id/id_indicator_four"
+           android:layout_width="0dip"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           defineView:myicon="@mipmap/ic_menu_allfriends"
+           defineView:mytext="我的"
+           defineView:mytext_size="13dp"
+           />
+-->
+    </LinearLayout>
+</LinearLayout>

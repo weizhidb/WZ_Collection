@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Test">
+        <attr name="buttonNum" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="ChangColorIconView">
+        <attr name="myicon" format="reference"/>
+        <attr name="mycolor" format="reference|color"/>
+        <attr name="mytext" format="reference|string"/>
+        <attr name="mytext_size" format="reference|dimension"/>
+    </declare-styleable>
+</resources>

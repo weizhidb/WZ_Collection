@@ -1,17 +1,12 @@
 package com.example.administrator.wz_collection.volley_code;
 
 import com.android.volley.NetworkResponse;
-import com.android.volley.ParseError;
 import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.toolbox.HttpHeaderParser;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import java.io.ByteArrayInputStream;
 import java.io.ObjectInputStream;
-import java.io.UnsupportedEncodingException;
 
 /**
  * Created by weizhi on 2015/11/29.
