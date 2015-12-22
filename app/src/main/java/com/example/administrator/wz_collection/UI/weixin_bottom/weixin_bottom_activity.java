@@ -1,4 +1,4 @@
-package com.example.administrator.wz_collection.UI;
+package com.example.administrator.wz_collection.UI.weixin_bottom;
 
 import android.app.Activity;
 import android.os.Bundle;

@@ -1,5 +1,6 @@
 apply plugin: 'com.android.application'
-
+apply plugin: 'com.neenbedankt.android-apt'
+def AAVersion = '3.0.1'
 android {
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
@@ -27,4 +28,15 @@ dependencies {
     compile files('src/main/libs/eventbus-2.4.0.jar')
     compile files('src/main/libs/jsoup-1.7.2.jar')
     compile files('src/main/libs/picasso-2.5.0.jar')
+
+    apt "org.androidannotations:androidannotations:$AAVersion"
+    compile "org.androidannotations:androidannotations-api:$AAVersion"
+    compile files('src/main/libs/androidannotations-3.2-sources.jar')
+}
+
+apt {
+    arguments {
+        androidManifestFile variant.outputs[0].processResources.manifestFile
+        resourcePackageName 'com.example.administrator.wz_collection'
+    }
 }
