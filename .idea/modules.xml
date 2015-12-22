@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/WZ_Collection.iml" filepath="$PROJECT_DIR$/WZ_Collection.iml" />
       <module fileurl="file://$PROJECT_DIR$/WZ_Function_Lib/WZ_Function_Lib.iml" filepath="$PROJECT_DIR$/WZ_Function_Lib/WZ_Function_Lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wz_java/wz_java.iml" filepath="$PROJECT_DIR$/wz_java/wz_java.iml" />
     </modules>
   </component>
 </project>

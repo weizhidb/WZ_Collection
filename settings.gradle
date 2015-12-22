@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':wz_java'
 include ':WZ_Function_Lib'
