@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+    <color name="light_gray_text">#949494</color>
+    <color name="common_list_divider">#dfdfdf</color>
+    <color name="red">#fa3e36</color>
+</resources>
