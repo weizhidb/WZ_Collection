@@ -1,2 +1,2 @@
-include ':app', ':wz_java', ':wz_titlescrollview'
+include ':app', ':wz_java', ':wz_titlescrollview', ':wz_androidframebase'
 include ':WZ_Function_Lib'

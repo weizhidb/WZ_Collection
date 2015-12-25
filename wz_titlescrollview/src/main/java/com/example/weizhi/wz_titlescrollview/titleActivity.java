@@ -1,5 +1,7 @@
 package com.example.weizhi.wz_titlescrollview;
 
+import android.content.IntentFilter;
+import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -8,6 +10,7 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.util.Log;
 
+import com.example.weizhi.wz_titlescrollview.net.detectNetWork.netWorkState;
 import com.example.weizhi.wz_titlescrollview.util.PagerSlidingTabStrip;
 import com.example.weizhi.wz_titlescrollview.util.ZoomOutPageTransformer;
 
@@ -24,11 +27,13 @@ public class titleActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.title_scrollview);
 
+        Log.i("test", "-------- state ---------" + netWorkState.isWifiConnect(titleActivity.this));
         //设置title的标签名字
         String Title[] = { "新 闻", "便民", "社 区", "美食", "娱乐", "电影", "房 产",
                 "汽车" };
         setTitleContent(Title);
         initView();
+
     }
 
     private void setTitleContent(String title[]) {
