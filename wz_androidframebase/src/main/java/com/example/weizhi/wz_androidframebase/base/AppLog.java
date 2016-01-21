@@ -1,4 +1,4 @@
-package com.example.weizhi.wz_androidframebase.net;
+package com.example.weizhi.wz_androidframebase.base;
 
 import android.util.Log;
 

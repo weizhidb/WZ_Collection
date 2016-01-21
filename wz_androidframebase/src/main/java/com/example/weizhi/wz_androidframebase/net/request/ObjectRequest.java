@@ -10,7 +10,7 @@ import com.android.volley.Response.ErrorListener;
 import com.android.volley.Response.Listener;
 import com.android.volley.toolbox.HttpHeaderParser;
 import com.android.volley.toolbox.JsonRequest;
-import com.example.weizhi.wz_androidframebase.net.AppLog;
+import com.example.weizhi.wz_androidframebase.base.AppLog;
 import com.example.weizhi.wz_androidframebase.net.RequestParam;
 import com.google.gson.Gson;
 

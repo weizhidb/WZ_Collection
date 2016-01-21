@@ -8,6 +8,7 @@ import com.android.volley.RequestQueue;
 import com.android.volley.Response.ErrorListener;
 import com.android.volley.Response.Listener;
 import com.android.volley.toolbox.Volley;
+import com.example.weizhi.wz_androidframebase.base.AppLog;
 import com.example.weizhi.wz_androidframebase.net.requestFactory.requestFactory;
 
 import org.json.JSONException;

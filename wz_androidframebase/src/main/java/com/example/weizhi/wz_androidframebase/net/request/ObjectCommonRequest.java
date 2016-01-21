@@ -7,7 +7,7 @@ import com.android.volley.Response;
 import com.android.volley.Response.ErrorListener;
 import com.android.volley.Response.Listener;
 import com.android.volley.toolbox.HttpHeaderParser;
-import com.example.weizhi.wz_androidframebase.net.AppLog;
+import com.example.weizhi.wz_androidframebase.base.AppLog;
 import com.example.weizhi.wz_androidframebase.net.RequestParam;
 import com.example.weizhi.wz_androidframebase.net.jsonparser.CommonParserBase;
 
