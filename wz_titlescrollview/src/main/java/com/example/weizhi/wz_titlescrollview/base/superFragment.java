@@ -51,8 +51,4 @@ public abstract class superFragment extends Fragment implements IcheckNetWork {
     protected abstract void lazyLoadData();
 
 
-    @Override
-    public void netWorkState() {
-
-    }
 }
